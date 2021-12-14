@@ -20,11 +20,11 @@ $ make
 $ sudo make install
 ```
 
-#### UNINSTALLING
+#### 卸载
 
     > make uninstall
 
-#### Cross Compile for Rasperberry Pi (Option 1)
+#### 树莓派的交叉编译（方法一）Cross Compile for Rasperberry Pi (Option 1)
 
 - For arm-linux-gnueabihf or other similar
   ```sh
@@ -39,7 +39,7 @@ $ sudo make install
   make && make install
   ```
 
-#### How create Debian package
+#### 创建 Debian 包(How to create Debian package)
 
     1. GPG Key
         ```sh
@@ -79,7 +79,7 @@ $ sudo make install
         - echo 10 > debian/compat
         - [DH_COMPAT 版本详细文档](https://manpages.debian.org/testing/debhelper/debhelper.7.en.html)
     7. 修改其他文件，例如 copyright, changelog
-    8. 正式打包，（us/uc=不签名）
+    8. 正式打包，（-us/-uc=不签名）
     ```sh
     dpkg-buildpackage -rfakeroot -kyouremail@address
     # 验证打包
