@@ -9,7 +9,7 @@
 or just run:
 
 ```sh
-    autoreconf -if
+    autoreconf -ifms
 ```
 
 #### INSTALLING Code
