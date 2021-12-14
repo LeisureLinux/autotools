@@ -1,1 +1,1 @@
-bin_SCRIPTS = helloworld.sh
+dist_bin_SCRIPTS = helloworld.sh

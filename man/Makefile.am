@@ -1,1 +1,1 @@
-man_MANS = hello.8 world.8 helloworld.8
+dist_man_MANS = hello.8 world.8 helloworld.8

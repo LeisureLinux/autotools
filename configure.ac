@@ -18,6 +18,11 @@ AC_CHECK_HEADERS([stdlib.h unistd.h])
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
-# AC_FUNC_MALLOC
+AC_FUNC_MALLOC
 AC_CHECK_FUNCS([sqrt])
-AC_OUTPUT(Makefile doc/Makefile man/Makefile script/Makefile src/Makefile)
+
+AC_CONFIG_FILES([Makefile
+                 man/Makefile
+                 script/Makefile
+                 src/Makefile])
+AC_OUTPUT
