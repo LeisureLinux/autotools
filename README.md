@@ -89,7 +89,7 @@
    lintian ../helloworld_0.1-1_amd64.deb
    ```
 
-#### 使用 pbuilder 打包成树莓派 raspbian OS 的安装包[参考文章]（https://grid.in.th/2020/10/cross-compile-packages-for-raspbian-from-x86_64/）
+#### 使用 pbuilder 打包成树莓派 raspbian OS 的安装包[参考文章](https://grid.in.th/2020/10/cross-compile-packages-for-raspbian-from-x86_64/)
 
 1. 安装相关的依赖包
    ```sh
