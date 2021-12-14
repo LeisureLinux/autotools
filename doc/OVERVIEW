@@ -1,0 +1,28 @@
+HELLOWORLD
+
+version 0.0.2 -- Dec. 2021
+
+CONTENT
+hello
+world
+helloworld.sh
+
+
+ABOUT
+Helloworld is hello and world. No one of them is somewhat useful, but they are
+both well documented.
+Run
+$ hello
+if you are happy. Run
+$ world
+if you don't. Run
+$ helloworld.sh
+if you're not set about this.
+
+
+KNOWN BUGS
+None yet. Report to hello@qq.com
+
+
+REFERENCES
+
